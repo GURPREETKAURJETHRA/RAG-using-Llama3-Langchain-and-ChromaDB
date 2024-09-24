@@ -63,7 +63,9 @@ To further enhance the solution, we will focus on refining the RAG implementatio
 
 14. RAG using  Llama3, Ollama and ChromaDB : [👉Implementation Guide▶️](https://github.com/GURPREETKAURJETHRA/Meta-LLAMA3-GenAI-UseCases-End-To-End-Implementation-Guides/blob/main/GENAI_NOTEBOOKS/ollama_llama_chroma_rag.ipynb)
     
-15. [Llama3 Usecases: 👉Implementation Guide▶️](https://github.com/GURPREETKAURJETHRA/Meta-LLAMA3-GenAI-UseCases-End-To-End-Implementation-Guides)
+15. Llama3 Usecases: [👉Implementation Guide▶️](https://github.com/GURPREETKAURJETHRA/Meta-LLAMA3-GenAI-UseCases-End-To-End-Implementation-Guides)
+
+16. RAG using Ro-LLM, Langchain and ChromaDB : [👉Implementation Guide▶️](https://github.com/GURPREETKAURJETHRA/RAG-using-Ro-LLM-Langchain-and-ChromaDB)
 ---
 
 #### **If you like this LLM Project do drop ⭐ to this repo**
