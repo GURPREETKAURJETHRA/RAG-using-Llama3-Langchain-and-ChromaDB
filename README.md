@@ -1,6 +1,20 @@
 # 🌟RAG using Llama3, Langchain and ChromaDB💎
 RAG using Llama3, Langchain and ChromaDB
 
+## Setup
+
+```bash
+python -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
+```
+
+Use **Python 3.11–3.12** if `torch` or related wheels are unavailable for your interpreter. On CUDA hosts you can optionally install `bitsandbytes` for 4-bit loading.
+
+Place the EU AI Act PDF at `data/aiact_final_draft.pdf`, or set `PDF_PATH`. Override the model with `MODEL_ID` (local path or Hugging Face id).
+
+**Gated Llama 3 weights:** accept the license on the model page, then authenticate with `huggingface-cli login` or `HF_TOKEN`. Without access, use an open model such as `MODEL_ID=Qwen/Qwen2.5-3B-Instruct`.
+
 ## Objective 🎯
 
 This project utilizes Llama3 Langchain and ChromaDB to establish a Retrieval Augmented Generation (RAG) system. This system empowers you to ask questions about your documents, even if the information wasn't included in the training data for the Large Language Model (LLM). Retrieval Augmented Generation works by first performing a retrieval step when presented with a question. This step fetches relevant documents from a special vector database, where the documents have been indexed.
