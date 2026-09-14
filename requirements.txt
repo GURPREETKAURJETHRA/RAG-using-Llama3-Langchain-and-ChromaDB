@@ -1,0 +1,17 @@
+# Prefer Python 3.11–3.12 for broadest torch / CUDA wheel support.
+torch
+transformers
+accelerate
+einops
+sentence-transformers
+langchain
+langchain-classic
+langchain-community
+langchain-huggingface
+langchain-chroma
+langchain-text-splitters
+chromadb
+pypdf
+
+# Optional: CUDA 4-bit quantization only
+# bitsandbytes
